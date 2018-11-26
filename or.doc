@@ -1,0 +1,17 @@
+LAB 7 CS/IT GEU
+geu- geu123
+oracle - oracle123
+oracle administrative password - Passw0rd123
+sys -Alpha#@123
+system -Alpha#@123
+
+
+oracle 12c 
+
+alter session set "_ORACLE_SCRIPT"=true;
+
+
+create user user1 identified by user2;
+grant connect to user1;
+grant resource to user1;
+commit;
